@@ -1,0 +1,24 @@
+ACT HUB - GITHUB STEPS (about 3 minutes)
+
+1. Unzip act-hub-site.zip. Open the folder "github-site" in VS Code (File > Open Folder).
+
+2. Open Claude in VS Code and paste this:
+
+   In this folder, create a PUBLIC GitHub repository named act-hub, commit all files,
+   push to the main branch, and turn on GitHub Pages from the main branch, root folder.
+   Then tell me the Pages address. Do not edit index.html, do not print its contents,
+   and do not write any passphrase anywhere.
+
+   (If you prefer commands: git init, git add ., git commit -m "ACT hub",
+   gh repo create act-hub --public --source=. --push, then in the repo on github.com
+   go to Settings > Pages > Deploy from a branch > main > / (root) > Save.)
+
+3. After a minute, open the address:  https://YOUR-GITHUB-NAME.github.io/act-hub/
+
+4. Enter your passphrase. Tick "Remember on this device" only on your own iPad.
+   Add the page to your Home Screen from the Share menu.
+
+Notes
+- The repository is public, but index.html is encrypted. Only the passphrase opens it.
+- Your leads, invoices and meetings stay on the device. Use "Back up data" on the Overview tab often.
+- To update later, replace index.html with the new file from Claude and push again.
